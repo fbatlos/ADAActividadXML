@@ -18,5 +18,5 @@ fun main() {
     val agencia = NoticiasRepository()
     val listaAgencia = agencia.ListaNoticia(path)
 
-    listaAgencia.forEach { println(it) }
+    listaAgencia.forEach { println(it.toString()) }
 }
